@@ -66,20 +66,20 @@ The links in the right-most column link directly to the lecture recording on Col
 |6|Sep 10| Monday    | [Lab 2: Linked lists][2] ([md][22]) / [Tutorial 2: LLDB][42] ([md][62]) *OR* [Tutorial 2: GDB][52] ([md][72]) (see [lab 2][2] for which one to pick) | [01: C++][81] | [C++][81], slides [10.13][1010912] to [12.5][1011104] ([recording][206]) | | [C++][81], slides [10.14][1010912] to [12.4][1011104] |
 |7|Sep 12| Wednesday | | [01: C++][81], [02: Lists][82] | [C++][81], slides [12.5][1011104] to [13.14][1011213] (end); [Lists][82], slides [1][82] to [4.4][1020303] ([recording][208]) | | |
 |8|Sep 14| Friday    | | [02: Lists][82] | [Lists][82], slides [4.4][1020303] to [6.7][1020506] ([recording][209]) | | |
-|9|Sep 17| Monday    | [Lab 3: Stacks][3] ([md][23]) / [Tutorial 3: More UNIX, part 1][63], introduction and sections 1-4 | [02: Lists][82], [03: Numbers][83] | | | |
-|10|Sep 19| Wednesday | | [03: Numbers][83] | | | |
-|11|Sep 21| Friday    | | [03: Numbers][83] | | | |
-|12|Sep 24| Monday    | [Lab 4: Numbers][4] ([md][24]) / [Tutorial 4: More UNIX, part 2][64], sections 5-8 | [03: Numbers][83] | | | |
-|13|Sep 26| Wednesday | | [04: Arrays & big-Oh][84] | | | |
-|14|Sep 28| Friday    | | [04: Arrays & big-Oh][84] | | | |
-|  |Sep 30| Sunday    | | Exam 1 review session | | | |
-|15|Oct 1| Monday    | Exam 1 instead during Tuesday's lab | [04: Arrays & big-Oh][84], [05: Trees][85] | | | |
-|16|Oct 3| Wednesday | | [05: Trees][85] | | | |
-|17|Oct 5| Friday    | | [05: Trees][85]| | | |
-|  |Oct 8| Monday    | No lab this week due to fall break | (fall break) | | | |
-|18|Oct 10| Wednesday | | [05: Trees][85] | | | |
-|19|Oct 12| Friday    | | [05: Trees][85] | | | |
-|20|Oct 15| Monday    | [Lab 5: Trees][5] ([md][25]) / [Tutorial 5: make][45] ([md][65]) | [06: Hashes][86] | | | |
+|9|Sep 17| Monday    | [Lab 3: Stacks][3] ([md][23]) / [Tutorial 3: More UNIX, part 1][63], introduction and sections 1-4 | [02: Lists][82], [03: Numbers][83] | [Lists][82], slides [6.8][1020507] to [9.4][1020803] (end) ([recording][210]) | | |
+|10|Sep 19| Wednesday | | [03: Numbers][83] | [Numbers][83], slides [1][83] to [8.4][1030703] ([recording][211]) | | |
+|11|Sep 21| Friday    | | [03: Numbers][83] | [Numbers][83], slides [8.4][1030703] to [9.13][1030812] ([recording][212]) | | |
+|12|Sep 24| Monday    | [Lab 4: Numbers][4] ([md][24]) / [Tutorial 4: More UNIX, part 2][64], sections 5-8 | [03: Numbers][83] | [Numbers][83], slides [9.13][1030812] to [9.32][1030831] ([recording][213]) | | |
+|13|Sep 26| Wednesday | | [04: Arrays & big-Oh][84] | [Numbers][83], slides [9.33][1030832] to [9.35][1030834] (end); [Arrays & big-Oh][84], slides [1][84] to [4.12][1040311] ([recording][215]) | | |
+|14|Sep 28| Friday    | | [04: Arrays & big-Oh][84] | [Arrays & big-Oh][84], slides [5.1][10404] to [5.16][1040415] ([recording][216]) | | |
+|  |Sep 30| Sunday    | | Exam 1 review session | [recording][218] | | |
+|15|Oct 1| Monday    | Exam 1 instead during Tuesday's lab | [04: Arrays & big-Oh][84], [05: Trees][85] | [Arrays & big-Oh][84], slides [5.16][1040415] to [6.8][1040507] (end); [Trees][85], slides [1][85] to [4.11][1050310] ([recording][219]) | | |
+|16|Oct 3| Wednesday | | [05: Trees][85] | [Trees][85], slides [4.11][1050310] to [5.20][1050419] ([recording][220]) | | |
+|17|Oct 5| Friday    | | [05: Trees][85]| [Trees][85], slides [6.1][10505] to [7.6][1050605] (recording will be available soon) | | |
+|  |Oct 8| Monday    | No lab this week due to fall break | (fall break) | (no class) | | |
+|18|Oct 10| Wednesday | | [05: Trees][85] | [Trees][85], slides [7.1][10506] to [7.30][1050629] ([recording][222]) | | | 
+|19|Oct 12| Friday    | | [05: Trees][85] | [Trees][85], slides [7.30][1050629] to [10.2][1050901] ([recording][223]) | | | 
+|20|Oct 15| Monday    | [Lab 5: Trees][5] ([md][25]) / [Tutorial 5: make][45] ([md][65]) | [06: Hashes][86] | [Trees][85], slides [10.2][1050902] to [10.10][1050909] (end); [Hashes][86], slides [1][86] to [5.8][1060407] ([recording][224]) | | | 
 |21|Oct 17| Wednesday | | [06: Hashes][86] | | | |
 |22|Oct 19| Friday    | | [06: Hashes][86] | | | |
 |23|Oct 22| Monday    | [Lab 6: Hashes][6] ([md][26]) / Tutorial 6: Shell scripting, part 1 (part of [this link][46]; the specific sections are mentioned on the [tutorials page][40]) | [06: Hashes][86], [07: IBCM][87] (machine language) | | | |
@@ -233,49 +233,50 @@ Grading Concerns
 [207]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/01-cpp-6/01-cpp-6.htm
 [208]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/02-lists-1/02-lists-1.htm
 [209]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/02-lists-2/02-lists-2.htm
-[210]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/03-numbers-1/03-numbers-1.htm
-[211]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/03-numbers-2/03-numbers-2.htm
-[212]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/03-numbers-3/03-numbers-3.htm
-[213]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/03-numbers-4/03-numbers-4.htm
-[214]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/04-arrays-bigoh-1/04-arrays-bigoh-1.htm
-[215]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/04-arrays-bigoh-2/04-arrays-bigoh-2.htm
-[216]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/04-arrays-bigoh-3/04-arrays-bigoh-3.htm
-[217]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/exam1-review/exam1-review.htm
-[218]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/05-trees-1/05-trees-1.htm
-[219]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/05-trees-2/05-trees-2.htm
-[220]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/05-trees-3/05-trees-3.htm
-[221]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/05-trees-4/05-trees-4.htm
-[222]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/05-trees-5/05-trees-5.htm
-[223]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/06-hashes-1/06-hashes-1.htm
-[224]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/06-hashes-2/06-hashes-2.htm
-[225]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/06-hashes-3/06-hashes-3.htm
-[226]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/07-ibcm-1/07-ibcm-1.htm
-[227]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/07-ibcm-2/07-ibcm-2.htm
-[228]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/07-ibcm-3/07-ibcm-3.htm
-[229]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/07-ibcm-4/07-ibcm-4.htm
-[230]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/08-assembly-1/08-assembly-1.htm
-[231]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/08-assembly-2/08-assembly-2.htm
-[232]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/08-assembly-3/08-assembly-3.htm
-[233]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/08-assembly-4/08-assembly-4.htm
-[234]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/08-assembly-5/08-assembly-5.htm
-[235]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/08-assembly-6/08-assembly-6.htm
-[236]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/09-advanced-cpp-1/09-advanced-cpp-1.htm
-[237]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/09-advanced-cpp-2/09-advanced-cpp-2.htm
-[238]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/exam2-review/exam2-review.htm
-[239]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/09-advanced-cpp-3/09-advanced-cpp-3.htm
-[240]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/10-heaps-huffman-1/10-heaps-huffman-1.htm
-[241]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/10-heaps-huffman-2/10-heaps-huffman-2.htm
-[242]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/10-heaps-huffman-3/10-heaps-huffman-3.htm
-[243]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/10-heaps-huffman-4/10-heaps-huffman-4.htm
-[244]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/11-graphs-1/11-graphs-1.htm
-[245]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/11-graphs-2/11-graphs-2.htm
-[246]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/11-graphs-3/11-graphs-3.htm
-[247]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/11-graphs-4/11-graphs-4.htm
-[248]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/12-memory-1/12-memory-1.htm
-[249]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/12-memory-2/12-memory-2.htm
-[250]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/12-memory-3/12-memory-3.htm
-[251]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/course-conclusion/course-conclusion.htm
-[252]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/final-review/final-review.htm
+[210]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/02-lists-3/02-lists-3.htm
+[211]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/03-numbers-1/03-numbers-1.htm
+[212]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/03-numbers-2/03-numbers-2.htm
+[213]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/03-numbers-3/03-numbers-3.htm
+[214]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/03-numbers-4/03-numbers-4.htm
+[215]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/04-arrays-bigoh-1/04-arrays-bigoh-1.htm
+[216]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/04-arrays-bigoh-2/04-arrays-bigoh-2.htm
+[217]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/04-arrays-bigoh-3/04-arrays-bigoh-3.htm
+[218]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/exam1-review/exam1-review.htm
+[219]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/05-trees-1/05-trees-1.htm
+[220]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/05-trees-2/05-trees-2.htm
+[221]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/05-trees-3/05-trees-3.htm
+[222]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/05-trees-4/05-trees-4.htm
+[223]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/05-trees-5/05-trees-5.htm
+[224]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/06-hashes-1/06-hashes-1.htm
+[225]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/06-hashes-2/06-hashes-2.htm
+[226]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/06-hashes-3/06-hashes-3.htm
+[227]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/07-ibcm-1/07-ibcm-1.htm
+[228]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/07-ibcm-2/07-ibcm-2.htm
+[229]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/07-ibcm-3/07-ibcm-3.htm
+[230]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/07-ibcm-4/07-ibcm-4.htm
+[231]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/08-assembly-1/08-assembly-1.htm
+[232]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/08-assembly-2/08-assembly-2.htm
+[233]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/08-assembly-3/08-assembly-3.htm
+[234]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/08-assembly-4/08-assembly-4.htm
+[235]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/08-assembly-5/08-assembly-5.htm
+[236]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/08-assembly-6/08-assembly-6.htm
+[237]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/09-advanced-cpp-1/09-advanced-cpp-1.htm
+[238]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/09-advanced-cpp-2/09-advanced-cpp-2.htm
+[239]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/exam2-review/exam2-review.htm
+[240]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/09-advanced-cpp-3/09-advanced-cpp-3.htm
+[241]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/10-heaps-huffman-1/10-heaps-huffman-1.htm
+[242]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/10-heaps-huffman-2/10-heaps-huffman-2.htm
+[243]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/10-heaps-huffman-3/10-heaps-huffman-3.htm
+[244]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/10-heaps-huffman-4/10-heaps-huffman-4.htm
+[245]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/11-graphs-1/11-graphs-1.htm
+[246]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/11-graphs-2/11-graphs-2.htm
+[247]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/11-graphs-3/11-graphs-3.htm
+[248]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/11-graphs-4/11-graphs-4.htm
+[249]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/12-memory-1/12-memory-1.htm
+[250]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/12-memory-2/12-memory-2.htm
+[251]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/12-memory-3/12-memory-3.htm
+[252]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/course-conclusion/course-conclusion.htm
+[253]: https://collab.itc.virginia.edu/access/content/group/ecaa9c3b-b126-466c-a2a0-25ac318eddbb/lectures/final-review/final-review.htm
 
 [1000228]: ../uva/course-introduction.html#/2/28
 [1000240]: ../uva/course-introduction.html#/2/40
@@ -364,19 +365,23 @@ Grading Concerns
 [1030406]: ../slides/03-numbers.html#/4/6
 [10307]: ../slides/03-numbers.html#/7
 [1030701]: ../slides/03-numbers.html#/7/1
+[1030703]: ../slides/03-numbers.html#/7/3
 [1030708]: ../slides/03-numbers.html#/7/8
 [1030603]: ../slides/03-numbers.html#/6/3
 [1030608]: ../slides/03-numbers.html#/6/8
 [1030705]: ../slides/03-numbers.html#/7/5
+[1030711]: ../slides/03-numbers.html#/7/11
 [10308]: ../slides/03-numbers.html#/8
 [1030801]: ../slides/03-numbers.html#/8/1
 [1030809]: ../slides/03-numbers.html#/8/9
 [1030810]: ../slides/03-numbers.html#/8/10
+[1030812]: ../slides/03-numbers.html#/8/12
 [1030813]: ../slides/03-numbers.html#/8/13
 [1030814]: ../slides/03-numbers.html#/8/14
 [1030815]: ../slides/03-numbers.html#/8/15
 [1030816]: ../slides/03-numbers.html#/8/16
 [1030825]: ../slides/03-numbers.html#/8/25
+[1030831]: ../slides/03-numbers.html#/8/31
 [1030832]: ../slides/03-numbers.html#/8/32
 [1030833]: ../slides/03-numbers.html#/8/33
 [1030834]: ../slides/03-numbers.html#/8/34
@@ -401,6 +406,7 @@ Grading Concerns
 [1040507]: ../slides/04-arrays-bigoh.html#/5/7
 [1050305]: ../slides/05-trees.html#/3/5
 [1050306]: ../slides/05-trees.html#/3/6
+[1050310]: ../slides/05-trees.html#/3/10
 [1050311]: ../slides/05-trees.html#/3/11
 [1050315]: ../slides/05-trees.html#/3/15
 [10504]: ../slides/05-trees.html#/4
@@ -411,14 +417,17 @@ Grading Concerns
 [1050416]: ../slides/05-trees.html#/4/16
 [1050417]: ../slides/05-trees.html#/4/17
 [1050418]: ../slides/05-trees.html#/4/18
+[1050419]: ../slides/05-trees.html#/4/19
 [10505]: ../slides/05-trees.html#/5
 [10506]: ../slides/05-trees.html#/6
 [1050604]: ../slides/05-trees.html#/6/4
+[1050605]: ../slides/05-trees.html#/6/5
 [1050609]: ../slides/05-trees.html#/6/9
 [1050610]: ../slides/05-trees.html#/6/10
 [1050612]: ../slides/05-trees.html#/6/12
 [1050617]: ../slides/05-trees.html#/6/17
 [1050630]: ../slides/05-trees.html#/6/30
+[1050629]: ../slides/05-trees.html#/6/29
 [10507]: ../slides/05-trees.html#/7
 [1050701]: ../slides/05-trees.html#/7/1
 [1050702]: ../slides/05-trees.html#/7/2
@@ -433,6 +442,7 @@ Grading Concerns
 [1050811]: ../slides/05-trees.html#/8/11
 [10509]: ../slides/05-trees.html#/9
 [1050901]: ../slides/05-trees.html#/9/1
+[1050902]: ../slides/05-trees.html#/9/2
 [1050909]: ../slides/05-trees.html#/9/9
 [10604]: ../slides/06-hashes.html#/4
 [1060406]: ../slides/06-hashes.html#/4/6

@@ -27,6 +27,7 @@
     <script type="text/javascript" src="../slides/js/dhtmlwindow.js"></script>
     <script type="text/javascript" src="../slides/js/canvas.js"></script>
     <link rel="stylesheet" href="../slides/css/dhtmlwindow.css" type="text/css">
+    <style>.reveal li { font-size:93%; line-height:120%; }</style>
   </head>
 
   <body onload="canvasinit()">
@@ -514,7 +515,7 @@ void Image::WriteInt (int value, FILE * fp) {
   - 32-bits: 2,147,483,647 + 1 = -2,147,483,648
   - 64-bits: 9,223,372,036,854,775,807 + 1 = -9,223,372,036,854,775,808
 - This has real-word applications: [*Gangnam Style* overflows INT_MAX, forces YouTube to go 64-bit](http://arstechnica.com/business/2014/12/gangnam-style-overflows-int_max-forces-youtube-to-go-64-bit/) (Dec 3, 2014)
-  - If you care, it's now at 2.6 billion views (as of Sep 2016)
+  - If you care, it's now at 3.2 billion views (as of Sep 2018)
 	  </script></section>
 
 	  <section>
@@ -832,7 +833,7 @@ Hint: it's not 1.0!
 	  </script></section>
 
 	  <section data-markdown><script type="text/template">
-## Comparing floating-point values
+## Comparing floats & doubles
 - Consider, in Java:
 ```
 double a = 1;
@@ -956,7 +957,7 @@ bool foo = fabs (a-b) < EPSILON;
 	  </script></section>
 
 	  <section data-markdown><script type="text/template">
-## Better Floating Point: More Bits
+## Better Floats: More Bits
 - IEEE 754 Double Precision (64 bits)
   - A `float` has about 7 decimal places of accuracy, and a `double` has about 15
 - 64 bits are split as follows:
